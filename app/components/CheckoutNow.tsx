@@ -27,6 +27,9 @@ export default function CheckoutNow({
     image: urlFor(image).url(),
     price_id: price_id,
   };
+
+  console.log(product);
+
   return (
     <Button
       variant="outline"
